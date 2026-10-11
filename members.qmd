@@ -1,0 +1,43 @@
+---
+title: "Members"
+
+listing:
+    - id: coordinators
+      include: 
+        group: "Coordinators"
+      contents:
+        - data/people.yml
+      template: people-card.ejs
+      type: grid
+      template-params:
+        name: "name"
+        affiliation: "affiliation"
+        img: "img"
+        keywords: "keywords"
+        email: "email"
+        website: "website"
+    - id: members
+      include: 
+        group: "Members"
+      contents:
+        - data/people.yml
+      template: people-card.ejs
+      type: grid
+      template-params:
+        name: "name"
+        affiliation: "affiliation"
+        img: "img"
+        keywords: "keywords"
+        email: "email"
+        website: "website"
+
+---
+
+
+## Coordinators
+::: {#coordinators}
+:::
+
+## Members
+::: {#members}
+:::

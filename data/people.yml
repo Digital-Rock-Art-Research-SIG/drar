@@ -1,0 +1,47 @@
+- group: Coordinators
+  img: github
+  name: Ashely Green
+  affiliation: University of Gothenburg, Sweden
+  email: test@test.com
+  keywords: [Digital Rock Art Research, CAA Special Interest Group]
+  website: test@test.com
+
+- group: Coordinators
+  img: github
+  name: Rebecca Döhl
+  affiliation: Universität Münster, Germany
+  email: test@test.com
+  keywords: [Digital Rock Art Research, CAA Special Interest Group]
+  website: test@test.com
+
+- group: Coordinators
+  img: github
+  name: Oliver Vogels
+  affiliation: Universität zu Köln, Germany
+  email: test@test.com
+  keywords: [Digital Rock Art Research, CAA Special Interest Group]
+  website:
+
+- group: Coordinators
+  img: github
+  name: Eymard Fäder
+  affiliation: Universität zu Köln, Germany
+  email: test@test.com
+  keywords: [Digital Rock Art Research, CAA Special Interest Group]
+  website: test@test.com
+
+- group: Coordinators
+  img: github
+  name: Paolo Medici
+  affiliation: Independent Archaeologist, Italy
+  email: test@test.com
+  keywords: [Digital Rock Art Research, CAA Special Interest Group]
+  website: test@test.com
+
+- group: Members
+  img: github
+  name: Test Testerson
+  affiliation: Test University, Testland
+  email: test@test.com
+  keywords: [Digital Rock Art Research, CAA Special Interest Group]
+  website: test@test.com
