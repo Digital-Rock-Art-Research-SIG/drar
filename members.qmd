@@ -12,9 +12,7 @@ listing:
       template-params:
         name: "name"
         affiliation: "affiliation"
-        img: "img"
         keywords: "keywords"
-        email: "email"
         website: "website"
     - id: members
       include: 
@@ -26,9 +24,7 @@ listing:
       template-params:
         name: "name"
         affiliation: "affiliation"
-        img: "img"
         keywords: "keywords"
-        email: "email"
         website: "website"
 
 ---

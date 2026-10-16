@@ -1,3 +1,19 @@
+---
+title: "Digital Rock Art Research SIG"
+
+listing:
+    - id: objectives
+      contents:
+        - data/objectives.yml
+      template: objectives-card.ejs
+      type: grid
+      template-params:
+        icon: "icon"
+        title: "title"
+        description: "description"
+---
+
+
 # Digital Rock Art Research
 
 ## CAA Special Interest Group
@@ -13,4 +29,5 @@ Interested in joining? Please contact us at XXXXXXX.
 After a workshop on digital rock art research in Berlin (XXXX) and a successful session at CAA 2025 in Athens, we decided to propose a CAA Special Interest Group (SIG) on digital rock art research. The SIG was approved in 2026 at CAA Vienna.
 
 ## In Focus
-
+::: {#objectives}
+:::
