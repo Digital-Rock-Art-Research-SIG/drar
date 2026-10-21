@@ -2,22 +2,22 @@
 
 <div class="quarto-listing quarto-listing-container-grid">
   
-  <div class="list grid quarto-listing-cols-3"> 
+  <div class="list grid quarto-listing-cols-2"> 
 
     <% for (const item of items) { ;%> 
     
     <div class="g-col-1 listing-box">
-        <div class="quarto-grid-item card h-100 card-left">
+        <div class="quarto-grid-item card h-100 card-center">
             
-            <div class="listing-box-name">
+            <div class="listing-box-icon">
               <%= item.icon %><br> 
             </div>
                
-            <div class="listing-box-affil">
+            <div class="listing-box-title">
               <%= item.title %><br>
             </div>
                 
-              <div class="listing-box-keywords">
+              <div class="listing-box-desc">
                 <% if (item.description) { %>
                   <p><%= item.description %></p>
                 <% } %>

@@ -1,5 +1,5 @@
 ---
-title: "Digital Rock Art Research SIG"
+# title: "Digital Rock Art Research SIG"
 
 listing:
     - id: objectives

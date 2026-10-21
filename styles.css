@@ -2,6 +2,49 @@
 /*-- scss:defaults --*/
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
+
 :root{
-    font-family: 'Manrope', sans-serif
+    font-family: 'Manrope', sans-serif;
 }
+
+.listing-box-icon{
+    font-size: 2.3em;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-center{
+    text-align: center;
+}
+
+.card-left{
+    margin-bottom: 7px;
+}
+
+.listing-box-title, .listing-box-name{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0px 5px 0px 5px;
+}
+
+.listing-box-affil{
+    font-size: 0.8em;
+    font-style: italic;
+    margin: 0px 5px 0px 5px;
+}
+
+.listing-box-desc p, .badge{
+    font-size: 0.7em !important;
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+}
+
+.listing-box-website{
+    margin-left: 10px;
+}
+
+.listing-box-website a{
+    text-decoration: none;
+}
+
+

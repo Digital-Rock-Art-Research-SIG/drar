@@ -10,7 +10,7 @@
         <div class="quarto-grid-item card h-100 card-left">
             
             <div class="listing-box-name">
-              <%= item.name %><br> 
+              <%= item.name %><%if (item.website){ %><span class="listing-box-website"><a href=<%= item.website %> target="_blank">&#128279;</a></span> <% } %>
             </div>
                
             <div class="listing-box-affil">
@@ -19,7 +19,7 @@
                 
             
               
-              <div class="listing-box-keywords">
+              <div class="listing-box-tags">
                 
                 <% if (item.keywords) { %>
                   <% for (const keyword of item.keywords) { %>

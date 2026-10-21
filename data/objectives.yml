@@ -2,7 +2,7 @@
   title: Workflows
   description: Best-practices in digital rock art documentation, from site to digital publication
 
-- icon: 📅
+- icon: ⌛
   title: Chronologies
   description: Improving relative and absolute chronology methods 
 
@@ -11,5 +11,5 @@
   description: Improving the use of spatial and geostatistical methods in rock art analysis
 
 - icon: 🪨
-  title: Contextualise
+  title: Contextualisation
   description: How to better understand the spatial, social, and functional context of rock art
