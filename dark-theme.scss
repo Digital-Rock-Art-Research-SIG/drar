@@ -39,7 +39,7 @@ $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
 
-$min-contrast-ratio:   1.85 !default;
+$min-contrast-ratio:   1.95 !default;
 
 
 // Fonts
@@ -50,7 +50,7 @@ $font-family-sans-serif:      'Manrope', Arial, !default;
 
 $font-size-base:              1.1rem !default;
 $headings-font-weight:        700 !default;
-
+$footer-font-size:            0.85em !default;
 // Tables
 
 $table-border-color:          rgba(0, 0, 0, .1) !default;
@@ -123,8 +123,10 @@ blockquote {
   font-style: italic;
 }
 
-footer {
-  font-size: $font-size-sm;
+footer, .footer, .footer p, .nav-footer-center, .nav-footer {
+  font-size: $footer-font-size;
+  margin-bottom: 1px;
+  min-height: min-content;
 }
 
 .lead {

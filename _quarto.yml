@@ -29,6 +29,7 @@ website:
       # - members.qmd
       # - meetings.qmd
       # - proj_pub.qmd
+  page-footer: version 1.0.0
 
 format:
   html:
@@ -39,6 +40,9 @@ format:
       styles.css
     toc: false
     respect-user-color-scheme: true
+    grid:
+      margin-width: 70px
+      body-width: 1500px
 
 
 
