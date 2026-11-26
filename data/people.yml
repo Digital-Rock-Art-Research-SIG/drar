@@ -1,35 +1,50 @@
-- group: Coordinators
-  name: Ashely Green
-  affiliation: University of Gothenburg, Sweden
+- name: Ashely Green
+  group: Coordinators
+  affiliation: University of Gothenburg (Sweden), Department of Historical Studies
   keywords: [Digital methods, Scandinavian rock art, Visualisation, GIS, Data management]
+  description: Ashely's work focuses on the use of digital methods for documentation and analysis in rock art research and archaeology. She holds a PhD in Archaeology and has developed several tools for rock art analysis and visualisation. Her main research areas include GIS and landscape analyses, machine learning, and 3D documentation for archaeology. She teaches these subjects at all levels.
   website: https://www.gu.se/en/about/find-staff/ashelygreen
+  email: ashely.green@gu.se
+  orcid: 0009-0005-4625-801X
 
-- group: Coordinators
-  name: Rebecca Döhl
-  affiliation: Universität Münster, Germany
-  keywords: [Digital methods, Landscape archaeology, Prehistory and Predynastic Period (Egypt), GIS, ABM]
+- name: Rebecca Döhl
+  group: Coordinators
+  affiliation: University Münster (Germany), Institute for Egyptology and Coptology
+  keywords: [Northeast-African Rock Art, Landscape archaeology, GIS, ABM, Multimodal Communication]
+  description: Rebecca Döhl's work focuses on mobile groups in Northeast Africa, with a special emphasis on prehistoric phases and early state formation. She holds a PhD in Egyptology and is trained in geoinformatics. Her main research areas include digital archaeology, rock art studies, landscape archaeology, GIS, and agent-based models. She investigates these subjects through the lenses of human-environment interaction, societal development, and complex system theory.
   website: https://www.archaeologie.hu-berlin.de/de/personal/rebecca-doehl
+  email: rebecca.doehl@hu-berlin.de
+  orcid: 0009-0006-7779-1631
 
-- group: Coordinators
-  name: Oliver Vogels
-  affiliation: Universität zu Köln, Germany
-  keywords: [Digital methods, African rock art, Statistical analysis, GIS]
-  website: https://ufg.phil-fak.uni-koeln.de/institut/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/dr-oliver-vogels-1
+- name: Oliver Vogels
+  group: Coordinators
+  affiliation: Heinrich-Barth-Institut, Cologne (Germany)
+  keywords: [African rock art, Quantitative methods, Statistical analysis, GIS, Theory in rock art research, Indigenous knowledge perspectives]
+  description: Oliver Vogels is an Africanist archaeologist specialising in prehistoric rock art, hunter-gatherer lifeways, indigenous knowledge, landscape archaeology, and prehistoric musical cultures. He holds an MSc in Musicology and a PhD in Prehistoric Archaeology from the University of Cologne. His doctoral research developed novel interdisciplinary approaches that combine digital and ethnographic methods to investigate the environmental and social contexts of Later Stone Age hunter-gatherer rock art in Namibia.
+  website: https://hbi.uni-koeln.de/en/board#OV
+  email: oliver.vogels@uni-koeln.de
+  orcid: 0000-0001-8133-0631
 
-- group: Coordinators
-  name: Eymard Fäder
-  affiliation: Universität zu Köln, Germany
-  keywords: [Digital Rock Art Research]
-  website: 
+- name: Eymard Fäder
+  group: Coordinators
+  affiliation: University of Cologne (Germany), Africa Research Centre
+  keywords: [Rock art documentation, Research data managament]
+  description: Eymard Fäder is an Africanist Archaeologist specialising in rock art research and research data management. He is the coordinator of the African Archaeology Achive Cologne (AAArC), a digital archive dedicated to the management and dissemination of rock art and archaeology data documentation from Africa.
+  website: https://ufg.phil-fak.uni-koeln.de/institut/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/eymard-faeder-ma-1 
+  email: faedere@uni-koeln.de
+  orcid: 0000-0003-1078-3849
 
-- group: Coordinators
-  name: Paolo Medici
-  affiliation: Independent Archaeologist, Italy
+- name: Paolo Medici
+  group: Coordinators
+  affiliation: Independent Archaeologist (Italy)
   keywords: [Digital Rock Art Research, Egyptology]
-  website: 
+  description: Paolo Medici's work focuses on the documentation and digital preservation of rock art, with an emphasis on integrating traditional recording methods with modern technologies. His main research areas include digital archaeology, 3D scanning, Structure from Motion, and GIS data management for prehistoric heritage sites like Valcamonica (Italy). He directs international fieldwork and teaches recording methodologies to students and researchers at all academic levels.
+  email: paolo.medici@hotmail.com
+  orcid: 0000-0003-3021-3130
 
-- group: Members
-  name: Test Testerson
+- name: Test Person
+  group: Members
   affiliation: Test University, Testland
-  keywords: [Digital Rock Art Research, CAA Special Interest Group]
-  website: 
+  description: Digital Rock Art Research, CAA Special Interest Group
+
+

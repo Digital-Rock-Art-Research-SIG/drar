@@ -1,7 +1,39 @@
 ---
 title: "Projects and Publications"
+
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Open publications
+
+
+### CAA Special Collection (see the full [Call for Papers](https://journal.caa-international.org/special-collections#beyond-tracing-the-past-modelling-and-representing-rock-art))
+
+**Beyond tracing the past: Modelling and representing rock art**
+
+*Editors: Oliver Vogels, Paolo Medici, Ashely Green, Eymard Fäder, Rebecca Döhl*
+
+Call for papers: October 2026 - July 2027
+
+The context for the formation and use of visual communication systems, such as rock art (including petroglyphs and paintings), wall art, or graffiti, is mainly analysed through formal methods of interpretation (Taçon and Chippindale, 1998). During the last decade these formal methods shifted more to digital and computational methods, comprising a wide range of approaches, applications, and techniques (Carrero-Pazos et al., 2022; Valdez-Tullett and Figueiredo Persson, 2023). These methods cover well-established GIS-centred analysis of the spatial context of rock art, computational analysis of rock art production, and extended reality (XR) applications for cultural heritage and engagement. On both the local- and large-scale, digital and computational methods play an important role in understanding visual communication systems and the people that created them. Incorporating digital methods in rock art research creates frameworks for the analysis of creation, meaning, and exchange of visual communication systems.
+ 
+To highlight the people behind the visual communication, this volume aims to explore all aspects of social engagement with rock art from its creation to its consumption and the feedback within these processes. While we refer to rock art as a prime example of visual communication, we embrace all expressions of semantic visuality, such as graffiti, visual marking systems, and wall art. We welcome contributions on methods, new insights and results from digital methods, and dissemination around the human-centred lifecycle of historic and prehistoric rock art. Broadly, topics can include, but are not limited to:
+
+- new approaches in digital visualisation methods
+- success and failure of AI-supported methods in rock art documentation and analysis
+- new computational approaches to rock art analysis, contextualisation, and visualisation
+- discussions of theoretical and methodological frameworks for digital rock art research
+
+References
+
+Carrero-Pazos, M., Döhl, R., Rensburg, J.J. van, Medici, P., Vázquez-Martínez, A., 2022. Rock Art Research in the Digital Era: Case Studies from the 20th International Rock Art Congress IFRAO 2018, Valcamonica (Italy), Rock Art Research in the Digital Era: Case Studies from the 20th International Rock Art Congress IFRAO 2018, Valcamonica (Italy). DOI: [10.30861/9781407360119](https://doi.org/10.30861/9781407360119)
+
+Taçon, P.S.C., Chippindale, C., 1998. An Archaeology of Rock-Art Through Informed Methods and Formal Methods, in: Chippindale, C. (Ed.), The Archaeology of Rock-Art. Cambridge Univ. Press, Cambridge, pp. 1–10.
+
+Valdez-Tullett, J., Figueiredo Persson, S., 2023. Digital Rock Art: Beyond “Pretty Pictures.” F1000Research 12, 523. DOI: [10.12688/f1000research.127249.1](https://doi.org/10.12688/f1000research.127249.1)
+
+
+
+#### **Contribute to the Special Collection**
+
+Please visit <https://journal.caa-international.org/special-collections> for further information about CAA Special Collections, article publication charges, peer-review system, and submission guidelines.

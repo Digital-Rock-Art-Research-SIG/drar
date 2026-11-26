@@ -1,8 +1,9 @@
 ```{=html}
+<meta charset="UTF-8">
 
 <div class="quarto-listing quarto-listing-container-grid">
   
-  <div class="list grid quarto-listing-cols-3"> 
+  <div class="list grid quarto-listing-cols-2"> 
 
     <% for (const item of items) { ;%> 
     
@@ -10,13 +11,38 @@
         <div class="quarto-grid-item card h-100 card-left">
             
             <div class="listing-box-name">
-              <%= item.name %><%if (item.website){ %><span class="listing-box-website"><a href=<%= item.website %> target="_blank">&#128279;</a></span> <% } %>
+              <%= item.name %>
             </div>
                
             <div class="listing-box-affil">
               <%= item.affiliation %><br>
             </div>
                 
+            <div class="listing-box-links" style="margin-bottom: 12px; font-size: 0.95rem;">
+              
+              <% if (item.website) { %>
+                <a href="<%- item.website %>" target="_blank" title="Website">
+                 &#128279; Website
+                </a>
+              <% } %>
+        
+              <% if (item.email) { %>
+                <a href="mailto:<%- item.email %>" title="E-Mail">
+                  &#9993;&#xFE0F; E-Mail
+                </a>
+              <% } %>
+              
+              <% if (item.orcid) { %>
+                <a href="https://orcid.org/<%- item.orcid %>" aria-label="View ORCID record - <%- item.orcid %>"><img src="/icons/ORCID-iD_icon_BW_vector.svg" alt="ORCID iD"/><%- item.orcid %></a>
+              <% } %>
+              </div>
+              
+              <% if (item.description) { %>
+                <div class="listing-box-desc" >
+                  <%- item.description %>
+                </div>
+              <% } %>
+              
             
               
               <div class="listing-box-tags">

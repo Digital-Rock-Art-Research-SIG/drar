@@ -1,7 +1,25 @@
 ---
 title: "Meetings and Events"
+
+
+listing:
+    - id: calendar
+      template: calendar.ejs
+      type: table
+    - id: events
+      contents: data/events.yml
+      type: table
+      sort-ui: true
+      filter-ui: true
+      field-display-names:
+        location: "Location"
+        categories: "Event Type"
 ---
 
-This is a Quarto website.
+## Event Calendar
+::: {#calendar}
+:::
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## More Info
+::: {#events}
+:::

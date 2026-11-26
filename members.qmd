@@ -12,8 +12,10 @@ listing:
       template-params:
         name: "name"
         affiliation: "affiliation"
-        keywords: "keywords"
+        description: "description"
         website: "website"
+        email: "email"
+        orcid: "orcid"
     - id: members
       include: 
         group: "Members"
@@ -24,8 +26,10 @@ listing:
       template-params:
         name: "name"
         affiliation: "affiliation"
-        keywords: "keywords"
+        description: "description"
         website: "website"
+        email: "email"
+        orcid: "orcid"
 
 ---
 

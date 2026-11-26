@@ -89,9 +89,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-group','listing-name','listing-affiliation','listing-keywords','listing-website',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-name','listing-group','listing-affiliation','listing-keywords','listing-description','listing-website','listing-email','listing-orcid',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-group","listing-name","listing-affiliation","listing-keywords","listing-website"],
+      searchColumns: ["listing-name","listing-group","listing-affiliation","listing-keywords","listing-description","listing-website","listing-email","listing-orcid"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -117,9 +117,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-group','listing-name','listing-affiliation','listing-keywords','listing-website',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-name','listing-group','listing-affiliation','listing-description',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-group","listing-name","listing-affiliation","listing-keywords","listing-website"],
+      searchColumns: ["listing-name","listing-group","listing-affiliation","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -438,10 +438,11 @@ window.Quarto = {
 <section id="coordinators" class="level2">
 <h2 class="anchored" data-anchor-id="coordinators">Coordinators</h2>
 <div id="listing-coordinators" class="quarto-listing quarto-listing-container-custom">
+<meta charset="UTF-8">
 
 <div class="quarto-listing quarto-listing-container-grid">
   
-  <div class="list grid quarto-listing-cols-3"> 
+  <div class="list grid quarto-listing-cols-2"> 
 
      
     
@@ -449,13 +450,38 @@ window.Quarto = {
         <div class="quarto-grid-item card h-100 card-left">
             
             <div class="listing-box-name">
-              Ashely Green<span class="listing-box-website"><a href="https://www.gu.se/en/about/find-staff/ashelygreen" target="_blank">🔗</a></span> 
+              Ashely Green
             </div>
                
             <div class="listing-box-affil">
-              University of Gothenburg, Sweden<br>
+              University of Gothenburg (Sweden), Department of Historical Studies<br>
             </div>
                 
+            <div class="listing-box-links" style="margin-bottom: 12px; font-size: 0.95rem;">
+              
+              
+                <a href="https://www.gu.se/en/about/find-staff/ashelygreen" target="_blank" title="Website">
+                 🔗 Website
+                </a>
+              
+        
+              
+                <a href="mailto:ashely.green@gu.se" title="E-Mail">
+                  ✉️ E-Mail
+                </a>
+              
+              
+              
+                <a href="https://orcid.org/0009-0005-4625-801X" aria-label="View ORCID record - 0009-0005-4625-801X"><img src="./icons/ORCID-iD_icon_BW_vector.svg" alt="ORCID iD">0009-0005-4625-801X</a>
+              
+              </div>
+              
+              
+                <div class="listing-box-desc">
+                  Ashely's work focuses on the use of digital methods for documentation and analysis in rock art research and archaeology. She holds a PhD in Archaeology and has developed several tools for rock art analysis and visualisation. Her main research areas include GIS and landscape analyses, machine learning, and 3D documentation for archaeology. She teaches these subjects at all levels.
+                </div>
+              
+              
             
               
               <div class="listing-box-tags">
@@ -484,28 +510,53 @@ window.Quarto = {
         <div class="quarto-grid-item card h-100 card-left">
             
             <div class="listing-box-name">
-              Rebecca Döhl<span class="listing-box-website"><a href="https://www.archaeologie.hu-berlin.de/de/personal/rebecca-doehl" target="_blank">🔗</a></span> 
+              Rebecca Döhl
             </div>
                
             <div class="listing-box-affil">
-              Universität Münster, Germany<br>
+              University Münster (Germany), Institute for Egyptology and Coptology<br>
             </div>
                 
+            <div class="listing-box-links" style="margin-bottom: 12px; font-size: 0.95rem;">
+              
+              
+                <a href="https://www.archaeologie.hu-berlin.de/de/personal/rebecca-doehl" target="_blank" title="Website">
+                 🔗 Website
+                </a>
+              
+        
+              
+                <a href="mailto:rebecca.doehl@hu-berlin.de" title="E-Mail">
+                  ✉️ E-Mail
+                </a>
+              
+              
+              
+                <a href="https://orcid.org/0009-0006-7779-1631" aria-label="View ORCID record - 0009-0006-7779-1631"><img src="./icons/ORCID-iD_icon_BW_vector.svg" alt="ORCID iD">0009-0006-7779-1631</a>
+              
+              </div>
+              
+              
+                <div class="listing-box-desc">
+                  Rebecca Döhl's work focuses on mobile groups in Northeast Africa, with a special emphasis on prehistoric phases and early state formation. She holds a PhD in Egyptology and is trained in geoinformatics. Her main research areas include digital archaeology, rock art studies, landscape archaeology, GIS, and agent-based models. She investigates these subjects through the lenses of human-environment interaction, societal development, and complex system theory.
+                </div>
+              
+              
             
               
               <div class="listing-box-tags">
                 
                 
                   
-                    <span class="badge bg-secondary">Digital methods</span>
+                    <span class="badge bg-secondary">Northeast-African Rock Art</span>
                   
                     <span class="badge bg-secondary">Landscape archaeology</span>
-                  
-                    <span class="badge bg-secondary">Prehistory and Predynastic Period (Egypt)</span>
                   
                     <span class="badge bg-secondary">GIS</span>
                   
                     <span class="badge bg-secondary">ABM</span>
+                  
+                    <span class="badge bg-secondary">Multimodal Communication</span>
                   
                 
               </div>             
@@ -519,26 +570,55 @@ window.Quarto = {
         <div class="quarto-grid-item card h-100 card-left">
             
             <div class="listing-box-name">
-              Oliver Vogels<span class="listing-box-website"><a href="https://ufg.phil-fak.uni-koeln.de/institut/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/dr-oliver-vogels-1" target="_blank">🔗</a></span> 
+              Oliver Vogels
             </div>
                
             <div class="listing-box-affil">
-              Universität zu Köln, Germany<br>
+              Heinrich-Barth-Institut, Cologne (Germany)<br>
             </div>
                 
+            <div class="listing-box-links" style="margin-bottom: 12px; font-size: 0.95rem;">
+              
+              
+                <a href="https://hbi.uni-koeln.de/en/board#OV" target="_blank" title="Website">
+                 🔗 Website
+                </a>
+              
+        
+              
+                <a href="mailto:oliver.vogels@uni-koeln.de" title="E-Mail">
+                  ✉️ E-Mail
+                </a>
+              
+              
+              
+                <a href="https://orcid.org/0000-0001-8133-0631" aria-label="View ORCID record - 0000-0001-8133-0631"><img src="./icons/ORCID-iD_icon_BW_vector.svg" alt="ORCID iD">0000-0001-8133-0631</a>
+              
+              </div>
+              
+              
+                <div class="listing-box-desc">
+                  Oliver Vogels is an Africanist archaeologist specialising in prehistoric rock art, hunter-gatherer lifeways, indigenous knowledge, landscape archaeology, and prehistoric musical cultures. He holds an MSc in Musicology and a PhD in Prehistoric Archaeology from the University of Cologne. His doctoral research developed novel interdisciplinary approaches that combine digital and ethnographic methods to investigate the environmental and social contexts of Later Stone Age hunter-gatherer rock art in Namibia.
+                </div>
+              
+              
             
               
               <div class="listing-box-tags">
                 
                 
                   
-                    <span class="badge bg-secondary">Digital methods</span>
-                  
                     <span class="badge bg-secondary">African rock art</span>
+                  
+                    <span class="badge bg-secondary">Quantitative methods</span>
                   
                     <span class="badge bg-secondary">Statistical analysis</span>
                   
                     <span class="badge bg-secondary">GIS</span>
+                  
+                    <span class="badge bg-secondary">Theory in rock art research</span>
+                  
+                    <span class="badge bg-secondary">Indigenous knowledge perspectives</span>
                   
                 
               </div>             
@@ -556,16 +636,43 @@ window.Quarto = {
             </div>
                
             <div class="listing-box-affil">
-              Universität zu Köln, Germany<br>
+              University of Cologne (Germany), Africa Research Centre<br>
             </div>
                 
+            <div class="listing-box-links" style="margin-bottom: 12px; font-size: 0.95rem;">
+              
+              
+                <a href="https://ufg.phil-fak.uni-koeln.de/institut/mitarbeiterinnen/wissenschaftliche-mitarbeiterinnen/eymard-faeder-ma-1" target="_blank" title="Website">
+                 🔗 Website
+                </a>
+              
+        
+              
+                <a href="mailto:faedere@uni-koeln.de" title="E-Mail">
+                  ✉️ E-Mail
+                </a>
+              
+              
+              
+                <a href="https://orcid.org/0000-0003-1078-3849" aria-label="View ORCID record - 0000-0003-1078-3849"><img src="./icons/ORCID-iD_icon_BW_vector.svg" alt="ORCID iD">0000-0003-1078-3849</a>
+              
+              </div>
+              
+              
+                <div class="listing-box-desc">
+                  Eymard Fäder is an Africanist Archaeologist specialising in rock art research and research data management. He is the coordinator of the African Archaeology Achive Cologne (AAArC), a digital archive dedicated to the management and dissemination of rock art and archaeology data documentation from Africa.
+                </div>
+              
+              
             
               
               <div class="listing-box-tags">
                 
                 
                   
-                    <span class="badge bg-secondary">Digital Rock Art Research</span>
+                    <span class="badge bg-secondary">Rock art documentation</span>
+                  
+                    <span class="badge bg-secondary">Research data managament</span>
                   
                 
               </div>             
@@ -583,9 +690,30 @@ window.Quarto = {
             </div>
                
             <div class="listing-box-affil">
-              Independent Archaeologist, Italy<br>
+              Independent Archaeologist (Italy)<br>
             </div>
                 
+            <div class="listing-box-links" style="margin-bottom: 12px; font-size: 0.95rem;">
+              
+              
+        
+              
+                <a href="mailto:paolo.medici@hotmail.com" title="E-Mail">
+                  ✉️ E-Mail
+                </a>
+              
+              
+              
+                <a href="https://orcid.org/0000-0003-3021-3130" aria-label="View ORCID record - 0000-0003-3021-3130"><img src="./icons/ORCID-iD_icon_BW_vector.svg" alt="ORCID iD">0000-0003-3021-3130</a>
+              
+              </div>
+              
+              
+                <div class="listing-box-desc">
+                  Paolo Medici's work focuses on the documentation and digital preservation of rock art, with an emphasis on integrating traditional recording methods with modern technologies. His main research areas include digital archaeology, 3D scanning, Structure from Motion, and GIS data management for prehistoric heritage sites like Valcamonica (Italy). He directs international fieldwork and teaches recording methodologies to students and researchers at all academic levels.
+                </div>
+              
+              
             
               
               <div class="listing-box-tags">
@@ -613,10 +741,11 @@ window.Quarto = {
 <section id="members" class="level2">
 <h2 class="anchored" data-anchor-id="members">Members</h2>
 <div id="listing-members" class="quarto-listing quarto-listing-container-custom">
+<meta charset="UTF-8">
 
 <div class="quarto-listing quarto-listing-container-grid">
   
-  <div class="list grid quarto-listing-cols-3"> 
+  <div class="list grid quarto-listing-cols-2"> 
 
      
     
@@ -624,23 +753,34 @@ window.Quarto = {
         <div class="quarto-grid-item card h-100 card-left">
             
             <div class="listing-box-name">
-              Test Testerson
+              Test Person
             </div>
                
             <div class="listing-box-affil">
               Test University, Testland<br>
             </div>
                 
+            <div class="listing-box-links" style="margin-bottom: 12px; font-size: 0.95rem;">
+              
+              
+        
+              
+              
+              
+              </div>
+              
+              
+                <div class="listing-box-desc">
+                  Digital Rock Art Research, CAA Special Interest Group
+                </div>
+              
+              
             
               
               <div class="listing-box-tags">
                 
                 
-                  
-                    <span class="badge bg-secondary">Digital Rock Art Research</span>
-                  
-                    <span class="badge bg-secondary">CAA Special Interest Group</span>
-                  
+                  <p>  </p>
                 
               </div>             
           </div>  

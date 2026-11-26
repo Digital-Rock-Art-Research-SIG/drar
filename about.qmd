@@ -1,22 +1,29 @@
-# About
+---
+title: "About"
+
+---
 
 ## Rock Art Research
 Prehistoric art tells us about past people from their own perspectives. As such, past artistic expressions should not be underestimated as both an archaeological source and cultural heritage. Over the last few decades, research on rock art, as well as other forms of artistic expression in ancient societies, such as epigraphy and the study of wall paintings, has increasingly shifted towards digital and computational methods. These methods comprise a wide range of approaches and techniques along with their respective theoretical considerations. Methods include well-established geospatial analysis of rock art contexts, computational and quantitative analysis (including AI approaches) of rock art production, and extended reality (XR) applications for cultural heritage and engagement. On both the local and the large scale, digital and computational methods play an important role in understanding rock art today. 
 
 Rock art is widely understood as a communication system deeply rooted in the respective worldview of its creators. In other words, rock art is ‘symbolically encoded’. The use, function, meaning, or contexts of rock art are therefore not directly accessible to cultures who do not share the same symbolic system. 
 
-## SIG Aims and Objectives
-The Digital Rock Art Research Special Interest Group (SIG) aims to enable the development of new workflows for documentation, analysis, and data sharing that improve our understanding of the creation and consumption of rock art worldwide. Within this, we would particularly like to explore:
+## Aims and Objectives
+The Digital Rock Art Research Special Interest Group (SIG-DRAR) aims to enable the development of new digital workflows for documentation, analysis, conservation, and data sharing that improve our understanding of the creation, consumption, and management of prehistoric art art worldwide. Within this, we would particularly like to explore:
 
-* best-practice workflows in digital rock art recording from the site to the digital publication
+* best-practice workflows in digital rock art documentation - from individual sites to digital publication
 * how to improve relative and absolute chronology methods 
 * how to improve the use of spatial, statistical, and chronological methods in the analysis of rock art
 * how to better understand the spatial, social and functional context of rock art
+* how to better understand human and natural effects on rock art and cultural heritage sites
+* how to improve management and conservation of rock art sites with digital methods
+* how to include local communities in documentation, preservation and management with digital tools
+* how to not rest our understanding and interpretation of prehistoric art on preconceptions of our present-day societies
 
-The SIG's long-term goal is a better understanding of past processes related to the production and consumption of rock art and improved methods in rock art research.
+The SIG's long-term goal is to gain a better understanding of past and present processes related to the production and consumption of rock art and improved methods in rock art research.
 
-## SIG Activities
-To achieve this, the SIG will:
+## Activities
+To achieve these goals, the SIG will:
 
 * Establish a network of rock art researchers using computational or quantitative methods in rock art research for knowledge exchange
 * Run sessions at CAA conferences more regularly (at least every 2 years)
