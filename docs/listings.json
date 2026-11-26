@@ -1,0 +1,19 @@
+[
+  {
+    "listing": "/meetings.html",
+    "items": [
+      "/about.html",
+      "/index.html",
+      "/members.html",
+      "/proj_pub.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": []
+  },
+  {
+    "listing": "/members.html",
+    "items": []
+  }
+]

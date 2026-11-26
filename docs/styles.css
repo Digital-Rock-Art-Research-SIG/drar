@@ -1,0 +1,76 @@
+/* css styles */
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+:root{
+    font-family: 'Manrope', sans-serif;
+}
+
+.listing-box-icon{
+    font-size: 2.3em;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-center{
+    text-align: center;
+}
+
+.card-left{
+    margin-bottom: 7px;
+}
+
+.listing-box-title, .listing-box-name{
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0px 5px 0px 5px;
+}
+
+.listing-box-affil{
+    font-size: 0.8em;
+    font-style: italic;
+    margin: 0px 5px 0px 5px;
+}
+
+.listing-box-desc p{
+    font-size: 0.95em;
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+}
+
+.badge{
+    font-size: 0.7em !important;
+    margin: 0px 5px 0px 5px;
+    padding: 5px;
+}
+
+.listing-box-desc {
+    margin: 5px 10px 5px 12px;
+    font-size: 0.8em
+}
+
+.listing-box-links{
+    margin: 5px 10px 5px 10px;
+    
+}
+
+.listing-box-links a{
+    text-decoration: none;
+    margin-right: 12px
+}
+
+.listing-box-links img{
+    height: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.listing-box-tags{
+    margin: 0px 5px 0px 5px;
+}
+
+#caa-special-collection-see-the-full-call-for-papers p, #caa-special-collection-see-the-full-call-for-papers ul{
+    font-size: 0.85em;
+}
+
