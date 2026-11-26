@@ -1,8 +1,6 @@
 project:
   type: website
-  preview:
-    port: 4200
-    browser: true
+  output-dir: docs
 
 website:
   title: "Digital Rock Art Research SIG (CAA)"
