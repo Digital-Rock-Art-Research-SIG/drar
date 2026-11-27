@@ -7,7 +7,7 @@ title: "Projects and Publications"
 ## Open publications
 
 
-### CAA Special Collection (see the full [Call for Papers](https://journal.caa-international.org/special-collections#beyond-tracing-the-past-modelling-and-representing-rock-art))
+### JCAA Special Collection (see the full [Call for Papers](https://journal.caa-international.org/special-collections#beyond-tracing-the-past-modelling-and-representing-rock-art))
 
 **Beyond tracing the past: Modelling and representing rock art**
 
@@ -36,4 +36,4 @@ Valdez-Tullett, J., Figueiredo Persson, S., 2023. Digital Rock Art: Beyond “Pr
 
 #### **Contribute to the Special Collection**
 
-Please visit <https://journal.caa-international.org/special-collections> for further information about CAA Special Collections, article publication charges, peer-review system, and submission guidelines.
+Please visit <https://journal.caa-international.org/special-collections> for further information about JCAA Special Collections, article publication charges, peer-review system, and submission guidelines.
